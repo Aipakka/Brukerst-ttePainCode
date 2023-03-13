@@ -4,3 +4,23 @@
 /*Cornsilk - #FEFAE0*/
 /*Earth yellow - #DDA15E*/
 /*Tiger’s Eye - #BC6C25*/
+body{
+    background-color: #BC6C25;
+}
+
+.legends{
+    background-color: #BC6C25;
+    color: #FEFAE0;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.fieldsets{
+    background-color: #e3720e;
+    color: #FEFAE0;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
