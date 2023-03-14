@@ -8,7 +8,9 @@ body{
     background-image: url("../Builde/gulskogen-skole-2019.png");
     background-color: #BC6C25;
 }
-
+.tittel{
+    text-align: center;
+}
 .legends{
     background-color: #FEFAE0;
     color: black;
