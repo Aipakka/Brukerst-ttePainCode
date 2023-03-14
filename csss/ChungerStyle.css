@@ -25,3 +25,14 @@ body{
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.datoe{
+    text-align: right;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+.event{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
