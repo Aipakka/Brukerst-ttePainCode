@@ -55,9 +55,9 @@ a.homolinks:link{
 a.homolinks:hover{
 text-decoration: underline;
 }
-a:visited {
+a.homolinks:visited {
     color: white;
 }
-a:active {
+a.homolinks:active {
     color: white;
 }
