@@ -45,3 +45,9 @@ body{
     border-style: ridge;
     font-size: 16px;
 }
+a.homolinks:link{
+    text-decoration: none;
+}
+a.homolinks:hover{
+text-decoration: underline;
+}
