@@ -37,17 +37,27 @@ body{
     width: 50%;
 }
 .homebar{
+    background-color: #BC6C25;
     position: fixed;
     right: 50px;
     height: 30px;
-    border: black;
+    border: white;
     border-radius: 10px;
     border-style: ridge;
     font-size: 16px;
 }
 a.homolinks:link{
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
+    text-align: center;
 }
 a.homolinks:hover{
 text-decoration: underline;
+}
+a:visited {
+    color: white;
+}
+a:active {
+    color: white;
 }
