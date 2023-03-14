@@ -9,6 +9,9 @@ body{
     background-color: #BC6C25;
 }
 .tittel{
+    display:inline
+}
+h1.tittel{
     text-align: center;
 }
 .legends{
