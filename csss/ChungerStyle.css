@@ -14,13 +14,14 @@ body{
 h1.tittel{
     text-align: center;
 }
-.legends{
+.legend{
     background-color: #FEFAE0;
     color: black;
     margin-left: 1rem;
     margin-right: 1rem; 
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 .fieldsets{
     background-color: #FEFAE0;
@@ -65,4 +66,9 @@ a.homolinks:visited {
 }
 a.homolinks:active {
     color: white;
+}
+.patch-notes{
+    width: 50%;
+    display: inline-block;
+    float: left;
 }
