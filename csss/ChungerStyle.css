@@ -85,7 +85,8 @@ a.homolinks:active {
 .CONdiv1 { grid-area: 2 / 1 / 3 / 2; }
 .CONdiv2 { grid-area: 2 / 2 / 3 / 3; }
 .CONdiv3 { grid-area: 2 / 3 / 3 / 4; }
-.fakau { grid-area: 3 / 1 / 4 / 4; }
+.kontakt { grid-area: 3 / 1 / 4 / 4; text-align: center;}
+.fakau { grid-area: 4 / 1 / 5 / 4; }
 .fieldsetsBIG{
     background-color: #FEFAE0;
     color: black;

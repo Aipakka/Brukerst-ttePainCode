@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../csss/ChungerStyle.css">
     <title>contact oss</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="homebar"> <!--also know as navigationbar-->
@@ -42,6 +43,22 @@
                 </fieldset>
             </div>
             <div class="fakau">
+                <fieldset class="fieldsets">
+                    <div id="zammad-feedback-form">form will be placed in here</div>
+                    <script id="zammad_form_script" src="https://zammad.if11.xyz/assets/form/form.js"></script>
+                
+                    <script>
+                    $(function() {
+                      $('#zammad-feedback-form').ZammadForm({
+                        messageTitle: 'Feedback Form',
+                        messageSubmit: 'Submit',
+                        messageThankYou: 'Thank you for your inquiry (#%s)! We\'ll contact you as soon as possible.',
+                        showTitle: true,
+                        attachmentSupport: true
+                      });
+                    });
+                    </script>
+                </fieldset>
                 <fieldset class="fieldsets">
                     <legend class="legends">FAQ</legend>
                     <ul>
