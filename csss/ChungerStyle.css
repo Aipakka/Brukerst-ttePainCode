@@ -8,8 +8,11 @@ body{
     background-image: url("../Builde/gulskogen-skole-2019.png");
     background-color: #BC6C25;
 }
+.vaapenskjold{
+    float: left;
+}
 .tittel{
-    display:inline
+    text-align: center;
 }
 h1.tittel{
     text-align: center;
